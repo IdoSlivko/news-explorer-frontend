@@ -1,0 +1,25 @@
+.saved-news__container {
+	width: 100%;
+	padding-top: 120px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.33;
+	color: #1A1B22;
+}
+
+@media all and (max-width: 768px) {
+
+	.saved-news__container {
+		padding-top: 90px;
+	}
+	
+}
+
+@media all and (max-width: 320px) {
+
+	.saved-news__container {
+		padding-top: 64px;
+	}
+	
+}

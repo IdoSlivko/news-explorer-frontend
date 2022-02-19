@@ -1,0 +1,37 @@
+.notFound__container {
+	width: 100%;
+	margin: 0px auto;
+	padding: 86px 0px 80px;
+	background-color: #F5F6F7;
+}
+
+.notFound__icon {
+	width: 96px;
+	height: 96px;
+	margin: 0px auto;
+	background-image: url(../../images/not-found.svg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.notFound {
+	margin: 24px auto 0px;
+	font-family: 'Roboto Slab', sans-serif;;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.15;
+	text-align: center;
+	color: #1A1B22;
+}
+
+.notFound__text {
+	width: 240px;
+	margin: 16px auto 0px;
+	font-family: 'Roboto', sans-serif;;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.33;
+	text-align: center;
+	color: #B6BCBF;
+}

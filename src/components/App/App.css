@@ -1,0 +1,9 @@
+.app__page {
+  position: relative;
+  max-width: 1440px;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0px auto;
+  color: #1A1B22; 
+  background-color: #FFF;
+}

@@ -1,0 +1,81 @@
+.popup-tooltip {
+	visibility: hidden;
+	display: flex;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	z-index: 3;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, .5);
+	opacity: 0;
+	transition: visibility 0.2s, opacity 0.1s linear;
+}
+
+.popup-tooltip_opened {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 0.2s, opacity 0.1s linear;
+}
+
+.popup-tooltip__container {
+	position: relative;
+	box-sizing: border-box;
+	width: 430px;
+	padding: 43px 36px;
+	border-radius: 16px;
+	background-color: #fff;
+	box-shadow: #000 15%;
+}
+
+.popup-tooltip__close-button {
+	position: absolute;
+	top: -46px;
+	right: -46px;
+	width: 40px;
+	height: 40px;
+	border: none;
+	background-color: initial;
+	background-image: url(../../images/close-icon.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transition: opacity 0.1s linear 0.05s;
+}
+
+.popup-tooltip__close-button:hover {
+	cursor: pointer;
+	opacity: .6;
+}
+
+.popup-tooltip__confirmation {
+	margin: 0px;
+	margin-bottom: 14px;
+	font-family: 'Roboto', 'sans-serif';
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000;
+}
+
+.popup-tooltip__login {
+	margin-bottom: 8px;
+	padding: 0px;
+	border: none;
+	font-family: 'Inter', 'sans-serif';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #2F71E5;
+	cursor: pointer;
+}
+
+@media all and (max-width: 600px) {
+
+	.popup-tooltip__close-button {
+		right: 0px;
+	}
+
+}

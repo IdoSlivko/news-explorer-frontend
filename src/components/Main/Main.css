@@ -1,0 +1,36 @@
+.main__container {
+	width: 100%;
+	padding: 160px 0px 80px;
+	background-image: url(../../images/main-image.png);
+  background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto;
+}
+
+@media all and (max-width: 768px) {
+
+	.main__container {
+		padding: 104px 0px 21px;
+		background-image: url(../../images/main-image-tablet.png);
+
+	}
+
+}
+
+@media all and (max-width: 400px) {
+
+	.main__container {
+		padding: 86px 0px 0px 0px;
+		background-image: url(../../images/main-image-mobile.png);
+		background-size: contain;
+	}
+
+}
+
+@media all and (max-width: 350px) {
+
+	.main__container {
+		background-size: auto;
+	}
+
+}
