@@ -1,4 +1,4 @@
-.main__container {
+.main {
 	width: 100%;
 	padding: 160px 0px 80px;
 	background-image: url(../../images/main-image.png);
@@ -9,7 +9,7 @@
 
 @media all and (max-width: 768px) {
 
-	.main__container {
+	.main {
 		padding: 104px 0px 21px;
 		background-image: url(../../images/main-image-tablet.png);
 
@@ -19,7 +19,7 @@
 
 @media all and (max-width: 400px) {
 
-	.main__container {
+	.main {
 		padding: 86px 0px 0px 0px;
 		background-image: url(../../images/main-image-mobile.png);
 		background-size: contain;
@@ -29,7 +29,7 @@
 
 @media all and (max-width: 350px) {
 
-	.main__container {
+	.main {
 		background-size: auto;
 	}
 

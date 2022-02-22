@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Navigation.css";
 
 import { LoggedInContext } from "../../contexts/LoggedInContext";
@@ -26,7 +26,7 @@ function Navigation(props) {
   }
 
   return (
-    <nav className='navigation__container'>
+    <nav className="navigation">
       <div
         className={
           location.pathname === "/saved-news"
@@ -37,10 +37,10 @@ function Navigation(props) {
         <Link
           className={
             location.pathname === "/saved-news"
-              ? "navigation__home navigation__home_theme_dark "
-              : "navigation__home"
+              ? "navigation__link navigation__link_active"
+              : "navigation__link"
           }
-          to='/'
+          to="/"
         >
           Home
         </Link>
@@ -52,17 +52,20 @@ function Navigation(props) {
             location.pathname === "/saved-news" ? savedLinkActive : savedLinkInactive
           }
         >
-          <NavLink
-            activeClassName='navigation__saved-articles-active'
-            className='navigation__saved-articles'
-            to='/saved-news'
+          <Link
+           className={
+              location.pathname === "/saved-news"
+                ? "navigation__link navigation__link_active"
+                : "navigation__link navigation__link_inactive"
+            }
+            to="/saved-news"
           >
             Saved articles
-          </NavLink>
+          </Link>
         </div>
       )}
 
-      <div className='navigation__log-box'>
+      <div className="navigation__log-box">
         <button
           className={
             isLoggedIn

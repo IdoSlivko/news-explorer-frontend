@@ -8,7 +8,7 @@ import About from '../About/About';
 function Main({ cards, savedCards, isMobile }) {
 
 	return (
-		<div className="main__container">
+		<div className="main">
 			<SearchForm
 				isMobile={isMobile}
 			/>

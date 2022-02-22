@@ -1,4 +1,4 @@
-.preloader__container {
+.preloader {
 	width: 100%;
 	margin: 0px auto;
 	padding: 80px 0px;
@@ -6,7 +6,7 @@
 	background-color: #F5F6F7;
 }
 
-.preloader {
+.preloader__animation {
 	display: block;
 	width: 74px;
 	height: 74px;

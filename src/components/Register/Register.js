@@ -19,7 +19,7 @@ function Register(props) {
 			logText="Sign in"
 			>
 
-			<h3 className="popup__input_subtitle">Email</h3>
+			<h3 className="popup__input-subtitle">Email</h3>
 			<input
 				className="popup__input"
 				type="text"
@@ -29,7 +29,7 @@ function Register(props) {
 			/>
 			<span	className="popup__input-error-msg" />
 
-			<h3 className="popup__input_subtitle">Password</h3>
+			<h3 className="popup__input-subtitle">Password</h3>
 			<input
 				className="popup__input"
 				type="password"
@@ -40,7 +40,7 @@ function Register(props) {
 			/>
 			<span	className="popup__input-error-msg" />
 
-			<h3 className="popup__input_subtitle">Username</h3>
+			<h3 className="popup__input-subtitle">Username</h3>
 			<input
 				className="popup__input"
 				type="text"

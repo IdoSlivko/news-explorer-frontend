@@ -1,4 +1,4 @@
-.footer__container {
+.footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -31,12 +31,7 @@
 	width: 270px;
 }
 
-.footer__home {
-	text-decoration: none;
-	color: #1A1B22;
-}
-
-.footer__practicum {
+.footer__link {
 	text-decoration: none;
 	color: #1A1B22;
 }
@@ -49,25 +44,24 @@
 	margin-right: 2px;
 }
 
+.footer__icon {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: #FFF;
+}
+
 .footer__git {
 	width: 22px;
 	height: 22px;
 	margin-top: -1px;
 	background-image: url(../../images/github.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-  background-size: contain;
-	background-color: #FFF;
 }
 
 .footer__facebook {
 	width: 20px;
 	height: 20px;
 	background-image: url(../../images/facebook.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-  background-size: contain;
-	background-color: #FFF;
 }
 
 @media all and (max-width: 920px) {
@@ -84,7 +78,7 @@
 
 @media all and (max-width: 768px) {
 
-	.footer__container {
+	.footer {
 		width: calc(100% - 80px);
 		height: 64px;
 	}
@@ -93,7 +87,7 @@
 
 @media all and (max-width: 450px) {
 	
-	.footer__container {
+	.footer {
 		flex-direction: column-reverse;
 		width: calc(100% - 32px);
 		height: 134px;

@@ -4,8 +4,8 @@ import image from '../../images/avatar.png'
 function About() {
 
 	return (
-		<div className="about__container">
-			<div className="about">
+		<div className="about">
+			<div className="about__container">
 				<img className="about__image" src={image} alt="author" />
 				<div className="about__box">
 					<h2 className="about__header">About the author</h2>

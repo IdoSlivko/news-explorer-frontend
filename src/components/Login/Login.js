@@ -19,7 +19,7 @@ function Login(props) {
 			logText="Sign up"
 			>
 
-			<h3	className="popup__input_subtitle">Email</h3>
+			<h3	className="popup__input-subtitle">Email</h3>
 			<input
 				className="popup__input"
 				type="email"
@@ -29,7 +29,7 @@ function Login(props) {
 			/>
 			<span	className="popup__input-error-msg" />
 
-			<h3 className="popup__input_subtitle">Password</h3>
+			<h3 className="popup__input-subtitle">Password</h3>
 			<input
 				className="popup__input"
 				type="password"

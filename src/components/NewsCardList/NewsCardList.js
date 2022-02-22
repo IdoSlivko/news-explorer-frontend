@@ -8,12 +8,12 @@ function NewsCardList({ cards, savedCards }) {
 	const location = useLocation();
 
 	return (
-		<div className="news-card-list__container">
+		<div className="news-card-list">
 			{ location.pathname === "/saved-news"
 				? undefined
 				: <h3 className="news-card-list__header">Search results</h3>
 				}
-			<div className="news-card-list">
+			<ul className="news-card-list__container">
 				{ location.pathname === "/saved-news"
 						? savedCards.map((card) => {
 							return (
@@ -33,7 +33,7 @@ function NewsCardList({ cards, savedCards }) {
 							);
 						})
 					}
-			</div>
+			</ul>
 			{ location.pathname === "/saved-news"
 				? undefined
 				: <button className="news-card-list__button">Show more</button>

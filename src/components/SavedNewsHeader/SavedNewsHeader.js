@@ -5,7 +5,6 @@ import { CurrentUserContext } from "../../contexts/CurrentUserContext";
 function SavedNewsHeader({ savedCards }) {
 
 	const userName = React.useContext(CurrentUserContext);
-	// const userName = 'Elise';
 
 	let keywords = '';
 	const keywordsList = [];

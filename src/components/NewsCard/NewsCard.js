@@ -7,7 +7,7 @@ function NewsCard(props) {
   
   const location = useLocation();
   const isLoggedIn = React.useContext(LoggedInContext);
-  const userId = 1; // equivalent to req.user._id (will be parse from future token)
+  const userId = 1;
   const { image, date, title, text, source, owner } = props.card;
   const savedByUser = owner === userId;
 
@@ -21,7 +21,7 @@ function NewsCard(props) {
   }
 
   return (
-    <div className='news-card__container'>
+    <li className='news-card__container'>
       <div
         className='news-card__image'
         style={{ backgroundImage: `url(${image})` }}>
@@ -56,10 +56,10 @@ function NewsCard(props) {
           isLoggedIn
             ? location.pathname === "/saved-news"
               ? "news-card__label-note"
-              : "news-card__label-note_disabled"
+              : "news-card__label-note news-card__label-note_disabled"
             : "news-card__label-note"
         }>
-        <p className='news-card__label-note_text'>
+        <p className='news-card__label-text'>
           {location.pathname === "/saved-news"
             ? "Remove from saved"
             : "Sign in to save articles"}
@@ -72,7 +72,7 @@ function NewsCard(props) {
         <article className='news-card__text'>{text}</article>
         <p className='news-card__source'>{source}</p>
       </div>
-    </div>
+    </li>
   );
 }
 
