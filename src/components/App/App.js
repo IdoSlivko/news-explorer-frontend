@@ -215,7 +215,7 @@ function App() {
   }
 
   return (
-    <div className="app__page">
+    <div className="page">
 
       <LoggedInContext.Provider value={isLoggedIn}>
       <CurrentUserContext.Provider value={currentUser}>

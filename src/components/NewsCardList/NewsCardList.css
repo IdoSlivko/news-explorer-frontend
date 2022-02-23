@@ -1,11 +1,16 @@
 .news-card-list {
+	width: 100%;
+	color: #1A1B22;
+	background-color: #F5F6F7;
+}
+
+.news-card-list__content {
 	display: flex;
 	flex-direction: column;
 	box-sizing: border-box;
 	width: calc(100% - 208px);
 	margin: 0px auto;
-	color: #1A1B22;
-	background-color: #F5F6F7;
+	
 }
 
 .news-card-list__header {
@@ -48,7 +53,7 @@
 
 @media all and (max-width: 768px) {
 
-	.news-card-list {
+	.news-card-list__content {
 		width: calc(100% - 80px);
 	}
 
@@ -81,7 +86,7 @@
 
 @media all and (max-width: 520px) {
 
-	.news-card-list {
+	.news-card-list__content {
 		width: calc(100% - 32px);
 	}
 

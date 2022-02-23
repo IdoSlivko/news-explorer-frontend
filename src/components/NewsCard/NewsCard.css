@@ -4,6 +4,7 @@
 	border-radius: 20px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 0;
+	background-color: #FFF;
 }
 
 .news-card__container:hover {
