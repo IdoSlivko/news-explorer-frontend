@@ -77,7 +77,7 @@ function Navigation(props) {
           onClick={ isLoggedIn ? logout : login }>
 
           <div className={ isLoggedIn ? "navigation__logout-textbox" : undefined }>
-            { isLoggedIn ? userName : "Sign in" }
+            { isLoggedIn ? userName.name : "Sign in" }
           </div>
 
           {isLoggedIn && (
