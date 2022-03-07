@@ -221,9 +221,10 @@ function App() {
 
   function handleDeleteCard(cardId) {
     mainApi.deleteArticleFromAccount(cardId)
-    .then(res => console.log(res))
-    .catch(error => console.log('error from delete: ', error));
-    setSavedCards(savedCards.filter((savedCard) => savedCard._id !== cardId));
+    .then(() => {
+      setSavedCards(savedCards.filter((savedCard) => savedCard._id !== cardId));
+    })
+    .catch(error => console.log(error));
   }
 
   function closeAllPopups() {

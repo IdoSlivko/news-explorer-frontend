@@ -3,7 +3,11 @@ import { Route, Redirect } from 'react-router-dom';
 
 function ProtectedRoute({ children, loggedIn, openLogin, ...props }) {
   
-  useEffect(() => { if (!loggedIn) { openLogin(); } }, [])
+  useEffect(() => {
+    if (!loggedIn && !localStorage.token) {
+      openLogin();
+    }
+  }, [])
 
   return (
     <Route {...props}>
