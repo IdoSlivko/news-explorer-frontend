@@ -1,11 +1,12 @@
 # news-explorer-frontend
-Practicum100 Final Project | stage-2 (Frontend)  
+Practicum100 Final Project | stage-3 (Frontend)  
+[Check the active version here](https://www.idoslivko-news-explorer.students.nomoreparties.sbs)
 
 ---   
 
 > Overview
-* Stage-2 (in progress) of the final project that was developed by _**[Practicum100 and Yandex Web Developer Program](https://practicum.yandex.com/)**_.  
-* This "What's going on in the world?" repository, will be a fully functional single-page website that features user authorization/registration and handles third-party api info (articles), allowing it to be saved/deleted into the user account.
+* Stage-3 (in progress) of the final project that was developed by _**[Practicum100 and Yandex Web Developer Program](https://practicum.yandex.com/)**_.  
+* This "What's going on in the world?" repository, is a fully functional single-page website that features user authorization/registration and handles third-party api info (articles), allowing it to be saved/deleted into the user account.
 
 ---
 > Technologies and Tools
