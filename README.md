@@ -1,11 +1,11 @@
 # news-explorer-frontend
-Practicum100 Final Project | stage-3 (Frontend)  
+Practicum100 Final Project | Frontend (stage 2 + 3)  
 [Check the active version here](https://www.idoslivko-news-explorer.students.nomoreparties.sbs)
 
 ---   
 
 > Overview
-* Stage-3 (in progress) of the final project that was developed by _**[Practicum100 and Yandex Web Developer Program](https://practicum.yandex.com/)**_.  
+* The frontend part of my final project that was developed by _**[Practicum100 and Yandex Web Developer Program](https://practicum.yandex.com/)**_.  
 * This "What's going on in the world?" repository, is a fully functional single-page website that features user authorization/registration and handles third-party api info (articles), allowing it to be saved/deleted into the user account.
 
 ---
@@ -15,7 +15,8 @@ Practicum100 Final Project | stage-3 (Frontend)
 * HTML
 * CSS
 * Figma
-
+---
+And here some built-in notes from the sponsor: 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
